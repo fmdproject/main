@@ -1,1 +1,15 @@
-1.  Design the pcb architecture 
+toDoList G1SG - Generation One Signal Generator
+
+1.  Design the pcb architecture
+  a)  
+2.  Find the right components
+3.  Program Microcontroller
+4.  Test Prototypes
+
+toDoList G1SA
+
+toDoList 3MIll
+
+1. Create a functional GUI 
+2. Make the interface simple and easy to understand
+3. 
