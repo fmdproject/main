@@ -1,15 +1,77 @@
-toDoList G1SG - Generation One Signal Generator
+toDoList G1SG - Generation One Signal Generator for stepper motors
 
 1.  Design the pcb architecture
-  a)  
+
+  a)  Approved propositions
+  
+    1)  3DOF - 3 Degrees of freedom - for 3 motors
+    2)  works with and without sensor input (encoder or hall sensors)
+    3)  5 Volt power supply through USB micro or Screw Terminal
+    4)  communicates through USB with computer
+    5)  sends motor pwms for each motor coil through ethernet cables
+    6)  PWM driver for outputing 500 different PWM leevels from 0 - LOW to 1 - fully HIGH
+    7)  9 bit AND Gate Array for each pole of a motor coil; 6 in total
+    8)  send the pwm signals and get the sensor signals from the motor thwough ethernet cables
+    
+  b)  Propositions
+  
+    1)  32bit Main microcontroller 300MHZ > 54 GPIOs
+    2)  second microcontroller for keeping track of sensor inputs
+    
+  
+2.  Find the right components
+
+  a)  Approved propositions
+  
+  b)  Propositions
+  
+    1)  SAM V7 for main microcotroller
+    
+3.  Program Microcontroller
+
+  a)  Program PID Mode
+  
+  b)  Program Classic Trapezoidal Speed Graph Mode
+
+4.  Test Prototypes
+
+
+
+
+
+toDoList G1SA - Generation One Signal Amplifier for stepper motors
+
+1.  Design the pcb architecture
+
+  a)  Approved propositions
+  
+    1)  H-Bridge for every motor coils
+    2)  Over voltage protection from motor back-EMF
+    
+  b)  Propositions
+  
 2.  Find the right components
 3.  Program Microcontroller
 4.  Test Prototypes
 
-toDoList G1SA
 
-toDoList 3MIll
+
+
+
+toDoList 3MIll - Desktop App for 3DOF machines
 
 1. Create a functional GUI 
 2. Make the interface simple and easy to understand
-3. 
+
+
+
+
+
+
+
+
+
+
+
+
+
